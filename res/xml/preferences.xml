@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory>
+        <!-- <EditTextPreference android:title="Export Directory" android:key="export_dir"/> -->
+        <EditTextPreference android:title="Separator" android:key="separator" android:defaultValue=","/>
+        <EditTextPreference android:title="Line end" android:key="line_end" android:defaultValue="\n"/>
+    </PreferenceCategory>
+
+    
+
+</PreferenceScreen>

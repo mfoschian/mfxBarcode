@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/lblSerialNumber"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Serial Number"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <EditText
+	        android:id="@+id/txtSerialNumber"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+		</EditText>
+	
+	    <TextView
+	        android:id="@+id/lblPartNumber"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Part Number"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <EditText
+	        android:id="@+id/txtPartNumber"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	    </EditText>
+	    
+	    <TextView
+	        android:id="@+id/lblQty"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Quantità"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+		<LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	
+	
+		    <Button
+		        android:id="@+id/butDecQty"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.06"
+		        android:text="-"
+		        android:textSize="26dp" />
+	
+		    <EditText
+		        android:id="@+id/txtQty"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.8"
+		        android:inputType="number" >
+
+		    </EditText>
+	
+		    <Button
+		        android:id="@+id/butIncQty"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.06"
+		        android:text="+"
+		        android:textSize="26dp" />
+	
+		</LinearLayout>
+		        	        
+	
+	</LinearLayout>
+	
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+   		android:gravity="bottom"
+        android:layout_gravity="bottom" >
+	    
+		<ImageButton
+		    android:id="@+id/butSave"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.5"
+		    android:text="Save" 
+		    android:src="@android:drawable/ic_menu_save"
+		    />
+		<ImageButton
+		    android:id="@+id/butDelete"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.5"
+		    android:text="Delete" 
+		    android:src="@android:drawable/ic_menu_delete"
+		    />
+		</LinearLayout>
+    
+</LinearLayout>

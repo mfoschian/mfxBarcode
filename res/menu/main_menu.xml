@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+   
+    <item android:id="@+id/mnuSetSerialMode" android:title="Beep Devices" android:titleCondensed="Devices"></item>
+   
+    <item android:id="@+id/mnuSetPartNumMode" android:title="Beep Consumabili" android:titleCondensed="Consumabili"></item><item android:id="@+id/mnuSetPartNum" android:title="Imposta Part Number" android:titleCondensed="Part Num."></item>
+        
+    <group android:id="@+id/mnuOther" android:menuCategory="container">
+    	<item android:id="@+id/mnuExport" android:title="Export" android:titleCondensed="Export" android:menuCategory="secondary"></item>    
+    	<item android:id="@+id/mnuOptions" android:title="Options" android:titleCondensed="Options" android:menuCategory="secondary"></item>
+    </group>
+</menu>
